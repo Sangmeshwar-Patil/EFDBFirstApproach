@@ -1,4 +1,4 @@
-﻿namespace WindowsAuthenicationExxample
+﻿namespace DBFirstEFExxample
 {
     partial class fromEmployeeList
     {
@@ -49,6 +49,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "fromEmployeeList";
             this.Text = "fromEmployeeList";
+            this.Load += new System.EventHandler(this.fromEmployeeList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
