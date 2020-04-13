@@ -67,6 +67,12 @@
     <Compile Include="frmEmployee.Designer.cs">
       <DependentUpon>frmEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="fromEmployeeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fromEmployeeList.Designer.cs">
+      <DependentUpon>fromEmployeeList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDB.Context.cs">
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="frmEmployee.resx">
       <DependentUpon>frmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fromEmployeeList.resx">
+      <DependentUpon>fromEmployeeList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
